@@ -1,0 +1,53 @@
+nav {
+    color: red;
+    text-align: center;
+}
+
+nav > h1 {
+    font-size: 36px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav > ul > li {
+    padding: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+section {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+section > h4 {
+    color: goldenrod;
+}
+
+.about-us-section {
+    text-align: left; 
+}
+
+.about-us-section > h2 {
+    text-align: center;
+}
+
+.about-us-section > h4 {
+    color: goldenrod;
+}
+
+section > ul {
+    list-style-position: inside;
+}
+
+section > ol > li {
+    list-style-position: inside;
+}
+
+section > ol > li > img{
+    height: 500px;
+}
